@@ -1,0 +1,112 @@
+.app-selector {
+  position: relative;
+}
+
+.select-app-btn {
+  padding: 8px 20px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: var(--radius);
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.select-app-btn:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.selected-app {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: var(--radius);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.app-icon { font-size: 20px; }
+.app-name { font-weight: 600; color: white; }
+.app-genre { color: rgba(255,255,255,0.7); font-size: 12px; }
+
+.change-btn {
+  margin-left: 8px;
+  padding: 2px 10px;
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  width: 400px;
+  max-width: 90vw;
+  box-shadow: var(--shadow-md);
+}
+
+.modal h3 {
+  font-size: 18px;
+  color: var(--text-heading);
+  margin-bottom: 16px;
+}
+
+.modal h4 {
+  font-size: 14px;
+  color: var(--text-heading);
+  margin-bottom: 8px;
+}
+
+.preset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.preset-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-white);
+  text-align: left;
+}
+
+.preset-item:hover, .preset-item.active {
+  border-color: var(--primary);
+  background: var(--primary-bg);
+}
+
+.preset-name { font-weight: 600; color: var(--text-heading); }
+.preset-genre { font-size: 12px; color: var(--text-light); }
+
+.close-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-light);
+}
