@@ -220,7 +220,7 @@ const AI_RESEARCH = {
       items: [
         { label: '장르', text: '모바일 웹보드 (정통 텍사스홀덤/토너먼트)' },
         { label: '개발/퍼블리싱', text: 'NHN' },
-        { label: '비고', text: '2023년 더블에이포커로 출시 → 2025년 9월 로열홀덤으로 리브랜딩' },
+        { label: '비고', text: '2023년 더블에이포커로 출시 → 2025년 9월 로얄홀덤으로 리브랜딩' },
       ],
       sections: [
         { title: '핵심 메커니즘', bullets: [
@@ -248,7 +248,7 @@ const AI_RESEARCH = {
     ],
     negative: [
       { category: '접근성/운영', items: [
-        { keyword: '전출 수수료', text: '로열홀덤에서 다른 게임으로 머니 전출 시 10% 수수료' },
+        { keyword: '전출 수수료', text: '로얄홀덤에서 다른 게임으로 머니 전출 시 10% 수수료' },
         { keyword: '인지도 부족', text: '더블에이포커에서 리브랜딩 후 기존 유저 혼란' },
         { keyword: '유저 분산', text: '한게임 홀덤과 별도 앱으로 유저 풀 분산 문제' },
         { keyword: '높은 진입 장벽', text: '토너먼트 중심이라 캐주얼 유저에게 부담' },

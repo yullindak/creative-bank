@@ -7,7 +7,7 @@ const PRESET_APPS = [
   { id: 'hangame-sutda', name: '한게임 섯다', genre: '보드/카드', icon: '🎴' },
   { id: 'hangame-poker-classic', name: '한게임 포커 클래식', genre: '보드/카드', icon: '♠️' },
   { id: 'hangame-holdem', name: '한게임 홀덤', genre: '보드/카드', icon: '♦️' },
-  { id: 'hangame-royal-holdem', name: '한게임 로열홀덤', genre: '보드/카드', icon: '👑' },
+  { id: 'hangame-royal-holdem', name: '한게임 로얄홀덤', genre: '보드/카드', icon: '👑' },
   { id: 'hangame-matgo', name: '한게임 신맞고', genre: '보드/카드', icon: '🎋' },
 ]
 
